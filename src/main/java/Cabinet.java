@@ -27,7 +27,6 @@ public class Cabinet {
             crews.remove(name);
         }
 
-        System.out.println(crews);
         int idx = 0;
         for (int i = 1; i < cabinets.size(); i++) {
             if (i % 27 == 0) {
