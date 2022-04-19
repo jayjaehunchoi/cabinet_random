@@ -10,7 +10,6 @@ class CabinetTest {
     @Test
     void allocate() {
         List<String> result = Cabinet.allocate("15:소주캉,17:크리스");
-        showResult(result);
         assertThat(result).hasSize(109);
         assertThat(result.get(15)).isEqualTo("소주캉");
         assertThat(result.get(17)).isEqualTo("크리스");
